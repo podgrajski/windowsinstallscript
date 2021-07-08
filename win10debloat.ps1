@@ -278,6 +278,19 @@ $Label19.height                  = 10
 $Label19.location                = New-Object System.Drawing.Point(63,126)
 $Label19.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
+$PictureBox1                     = New-Object system.Windows.Forms.PictureBox
+$PictureBox1.width               = 412
+$PictureBox1.height              = 125
+$PictureBox1.location            = New-Object System.Drawing.Point(247,500)
+$PictureBox1.imageLocation       = ""
+$PictureBox1.SizeMode            = [System.Windows.Forms.PictureBoxSizeMode]::zoom
+$lightmode                       = New-Object system.Windows.Forms.Button
+$lightmode.text                  = "Light Mode"
+$lightmode.width                 = 204
+$lightmode.height                = 30
+$lightmode.location              = New-Object System.Drawing.Point(4,279)
+$lightmode.Font                  = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
+
 $Label1                          = New-Object system.Windows.Forms.Label
 $Label1.text                     = "Install"
 $Label1.AutoSize                 = $true
