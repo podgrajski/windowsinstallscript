@@ -66,7 +66,7 @@ $Panel1.width                    = 219
 $Panel1.location                 = New-Object System.Drawing.Point(6,54)
 
 $brave                           = New-Object system.Windows.Forms.Button
-$brave.text                      = "Brave Browser"
+$brave.text                      = "Brave Browser test"
 $brave.width                     = 212
 $brave.height                    = 30
 $brave.location                  = New-Object System.Drawing.Point(3,94)
