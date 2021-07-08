@@ -784,7 +784,7 @@ $yourphonefix.Add_Click({
 		Remove-ItemProperty -Path $_.PsPath -Name "Disabled" -ErrorAction SilentlyContinue
 		Remove-ItemProperty -Path $_.PsPath -Name "DisabledByUser" -ErrorAction SilentlyContinue
 	}
-    Write-Host "You may need to Reboot and right-click Your Phone app and select repair"
+    Write-Host "You may need to Reboot and right-click Your Phone app and select repair."
 })
 
 [void]$Form.ShowDialog()
