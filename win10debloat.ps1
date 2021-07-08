@@ -219,65 +219,6 @@ $onedrive.height                 = 30
 $onedrive.location               = New-Object System.Drawing.Point(4,209)
 $onedrive.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Label15                         = New-Object system.Windows.Forms.Label
-$Label15.text                    = "Windows Update"
-$Label15.AutoSize                = $true
-$Label15.width                   = 25
-$Label15.height                  = 10
-$Label15.location                = New-Object System.Drawing.Point(739,11)
-$Label15.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
-
-$Panel4                          = New-Object system.Windows.Forms.Panel
-$Panel4.height                   = 179
-$Panel4.width                    = 340
-$Panel4.location                 = New-Object System.Drawing.Point(699,55)
-
-$defaultwindowsupdate            = New-Object system.Windows.Forms.Button
-$defaultwindowsupdate.text       = "Default Settings"
-$defaultwindowsupdate.width      = 300
-$defaultwindowsupdate.height     = 30
-$defaultwindowsupdate.location   = New-Object System.Drawing.Point(24,26)
-$defaultwindowsupdate.Font       = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
-
-$securitywindowsupdate           = New-Object system.Windows.Forms.Button
-$securitywindowsupdate.text      = "Security Updates Only"
-$securitywindowsupdate.width     = 300
-$securitywindowsupdate.height    = 30
-$securitywindowsupdate.location  = New-Object System.Drawing.Point(24,142)
-$securitywindowsupdate.Font      = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
-
-$Label16                         = New-Object system.Windows.Forms.Label
-$Label16.text                    = "I recommend doing security updates only."
-$Label16.AutoSize                = $true
-$Label16.width                   = 25
-$Label16.height                  = 10
-$Label16.location                = New-Object System.Drawing.Point(62,65)
-$Label16.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
-$Label17                         = New-Object system.Windows.Forms.Label
-$Label17.text                    = "- Delays Features updates up to 3 years"
-$Label17.AutoSize                = $true
-$Label17.width                   = 25
-$Label17.height                  = 10
-$Label17.location                = New-Object System.Drawing.Point(63,84)
-$Label17.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
-$Label18                         = New-Object system.Windows.Forms.Label
-$Label18.text                    = "- Delays Security updates 4 days"
-$Label18.AutoSize                = $true
-$Label18.width                   = 25
-$Label18.height                  = 10
-$Label18.location                = New-Object System.Drawing.Point(63,105)
-$Label18.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
-$Label19                         = New-Object system.Windows.Forms.Label
-$Label19.text                    = "- Sets Maximum Active Time"
-$Label19.AutoSize                = $true
-$Label19.width                   = 25
-$Label19.height                  = 10
-$Label19.location                = New-Object System.Drawing.Point(63,126)
-$Label19.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
 $PictureBox1                     = New-Object system.Windows.Forms.PictureBox
 $PictureBox1.width               = 412
 $PictureBox1.height              = 125
