@@ -71,3 +71,14 @@ $brave.width                     = 212
 $brave.height                    = 30
 $brave.location                  = New-Object System.Drawing.Point(3,94)
 $brave.Font                      = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
+
+$Form.controls.AddRange(@($Panel1,$Panel2,$Label3,$Label15,$Panel4,$PictureBox1,$Label1,$Label4,$Panel3))
+$Panel1.controls.AddRange(@($brave,$firefox,$7zip,$irfanview,$adobereader,$notepad,$gchrome,$mpc,$vlc,$powertoys,$winterminal,$vscode,$Label2,$everythingsearch,$sumatrapdf,$vscodium,$imageglass,$honeyview))
+$Panel2.controls.AddRange(@($essentialtweaks,$backgroundapps,$cortana,$actioncenter,$darkmode,$visualfx,$onedrive,$lightmode))
+$Panel3.controls.AddRange(@($essentialundo,$EActionCenter,$ECortana,$RBackgroundApps,$HTrayIcons,$EClipboardHistory,$ELocation,$InstallOneDrive,$yourphonefix))
+
+$brave.Add_Click({
+    Write-Host "Installing Brave Browser"
+    winget install BraveSoftware.BraveBrowser | Out-Host
+    if($?) { Write-Host "Installed Brave Browser" }
+})
