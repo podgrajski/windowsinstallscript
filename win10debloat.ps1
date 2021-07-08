@@ -149,7 +149,7 @@ $vscode.location                 = New-Object System.Drawing.Point(4,396)
 $vscode.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $Label2                          = New-Object system.Windows.Forms.Label
-$Label2.text                     = "(Windows 1809+ Required)"
+$Label2.text                     = "Namestis lahko katerokoli od spodnjih aplikacij"
 $Label2.AutoSize                 = $true
 $Label2.width                    = 25
 $Label2.height                   = 10
@@ -162,7 +162,7 @@ $Panel2.width                    = 211
 $Panel2.location                 = New-Object System.Drawing.Point(239,54)
 
 $Label1                          = New-Object system.Windows.Forms.Label
-$Label1.text                     = "Install"
+$Label1.text                     = "Aplikacije"
 $Label1.AutoSize                 = $true
 $Label1.width                    = 230
 $Label1.height                   = 25
