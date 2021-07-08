@@ -11,17 +11,17 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 }
 
 # GUI Specs
-Write-Host "Checking winget..."
+Write-Host "Preverjam winget..."
 
 Try{
 	# Check if winget is already installed
 	$er = (invoke-expression "winget -v") 2>&1
 	if ($lastexitcode) {throw $er}
-	Write-Host "winget is already installed."
+	Write-Host "winget je ze namescen."
 }
 Catch{
 	# winget is not installed. Install it from the Github release
-	Write-Host "winget is not found, installing it right now."
+	Write-Host "winget se ni namescen, zacenjam namestitev!"
 	
 	$download = "https://github.com/microsoft/winget-cli/releases/download/v1.0.11692/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
 	$output = $PSScriptRoot + "\winget-latest.appxbundle"
@@ -40,7 +40,7 @@ Finally {
 
 $Form                            = New-Object system.Windows.Forms.Form
 $Form.ClientSize                 = New-Object System.Drawing.Point(1050,700)
-$Form.text                       = "Windows 10 Debloat By Chris Titus"
+$Form.text                       = "PodGrajski namestitelj aplikacij"
 $Form.StartPosition              = "CenterScreen"
 $Form.TopMost                    = $false
 $Form.BackColor                  = [System.Drawing.ColorTranslator]::FromHtml("#b8b8b8")
