@@ -219,14 +219,6 @@ $onedrive.height                 = 30
 $onedrive.location               = New-Object System.Drawing.Point(4,209)
 $onedrive.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Label15                         = New-Object system.Windows.Forms.Label
-$Label15.text                    = "Windows Update"
-$Label15.AutoSize                = $true
-$Label15.width                   = 25
-$Label15.height                  = 10
-$Label15.location                = New-Object System.Drawing.Point(739,11)
-$Label15.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
-
 $Panel4                          = New-Object system.Windows.Forms.Panel
 $Panel4.height                   = 179
 $Panel4.width                    = 340
