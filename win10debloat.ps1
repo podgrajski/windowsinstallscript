@@ -224,13 +224,6 @@ $Panel4.height                   = 179
 $Panel4.width                    = 340
 $Panel4.location                 = New-Object System.Drawing.Point(699,55)
 
-$securitywindowsupdate           = New-Object system.Windows.Forms.Button
-$securitywindowsupdate.text      = "Security Updates Only"
-$securitywindowsupdate.width     = 300
-$securitywindowsupdate.height    = 30
-$securitywindowsupdate.location  = New-Object System.Drawing.Point(24,142)
-$securitywindowsupdate.Font      = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
-
 $Label17                         = New-Object system.Windows.Forms.Label
 $Label17.text                    = "- Delays Features updates up to 3 years"
 $Label17.AutoSize                = $true
