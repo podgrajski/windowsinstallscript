@@ -157,79 +157,10 @@ $Label2.height                   = 10
 $Label2.location                 = New-Object System.Drawing.Point(26,5)
 $Label2.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$Panel2                          = New-Object system.Windows.Forms.Panel
-$Panel2.height                   = 386
-$Panel2.width                    = 211
-$Panel2.location                 = New-Object System.Drawing.Point(239,54)
-
-$Label3                          = New-Object system.Windows.Forms.Label
-$Label3.text                     = "System Tweaks"
-$Label3.AutoSize                 = $true
-$Label3.width                    = 230
-$Label3.height                   = 25
-$Label3.location                 = New-Object System.Drawing.Point(230,12)
-$Label3.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
-
-$essentialtweaks                 = New-Object system.Windows.Forms.Button
-$essentialtweaks.text            = "Essential Tweaks"
-$essentialtweaks.width           = 204
-$essentialtweaks.height          = 75
-$essentialtweaks.location        = New-Object System.Drawing.Point(4,25)
-$essentialtweaks.Font            = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
-
-$backgroundapps                  = New-Object system.Windows.Forms.Button
-$backgroundapps.text             = "Disable Background Apps"
-$backgroundapps.width            = 205
-$backgroundapps.height           = 30
-$backgroundapps.location         = New-Object System.Drawing.Point(3,139)
-$backgroundapps.Font             = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$cortana                         = New-Object system.Windows.Forms.Button
-$cortana.text                    = "Disable Cortana (Search)"
-$cortana.width                   = 204
-$cortana.height                  = 30
-$cortana.location                = New-Object System.Drawing.Point(4,174)
-$cortana.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$actioncenter                    = New-Object system.Windows.Forms.Button
-$actioncenter.text               = "Disable Action Center"
-$actioncenter.width              = 203
-$actioncenter.height             = 30
-$actioncenter.location           = New-Object System.Drawing.Point(4,105)
-$actioncenter.Font               = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$darkmode                        = New-Object system.Windows.Forms.Button
-$darkmode.text                   = "Dark Mode"
-$darkmode.width                  = 204
-$darkmode.height                 = 30
-$darkmode.location               = New-Object System.Drawing.Point(4,244)
-$darkmode.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$visualfx                        = New-Object system.Windows.Forms.Button
-$visualfx.text                   = "Basic Visual FX"
-$visualfx.width                  = 204
-$visualfx.height                 = 30
-$visualfx.location               = New-Object System.Drawing.Point(4,313)
-$visualfx.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$onedrive                        = New-Object system.Windows.Forms.Button
-$onedrive.text                   = "Uninstall OneDrive"
-$onedrive.width                  = 204
-$onedrive.height                 = 30
-$onedrive.location               = New-Object System.Drawing.Point(4,209)
-$onedrive.Font                   = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
 $Panel4                          = New-Object system.Windows.Forms.Panel
 $Panel4.height                   = 179
 $Panel4.width                    = 340
 $Panel4.location                 = New-Object System.Drawing.Point(699,55)
-
-$lightmode                       = New-Object system.Windows.Forms.Button
-$lightmode.text                  = "Light Mode"
-$lightmode.width                 = 204
-$lightmode.height                = 30
-$lightmode.location              = New-Object System.Drawing.Point(4,279)
-$lightmode.Font                  = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $Label1                          = New-Object system.Windows.Forms.Label
 $Label1.text                     = "Install"
