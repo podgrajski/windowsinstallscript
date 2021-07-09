@@ -231,14 +231,6 @@ $securitywindowsupdate.height    = 30
 $securitywindowsupdate.location  = New-Object System.Drawing.Point(24,142)
 $securitywindowsupdate.Font      = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
 
-$Label16                         = New-Object system.Windows.Forms.Label
-$Label16.text                    = "I recommend doing security updates only."
-$Label16.AutoSize                = $true
-$Label16.width                   = 25
-$Label16.height                  = 10
-$Label16.location                = New-Object System.Drawing.Point(62,65)
-$Label16.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
 $Label17                         = New-Object system.Windows.Forms.Label
 $Label17.text                    = "- Delays Features updates up to 3 years"
 $Label17.AutoSize                = $true
