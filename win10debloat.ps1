@@ -224,13 +224,6 @@ $Panel4.height                   = 179
 $Panel4.width                    = 340
 $Panel4.location                 = New-Object System.Drawing.Point(699,55)
 
-$defaultwindowsupdate            = New-Object system.Windows.Forms.Button
-$defaultwindowsupdate.text       = "Default Settings"
-$defaultwindowsupdate.width      = 300
-$defaultwindowsupdate.height     = 30
-$defaultwindowsupdate.location   = New-Object System.Drawing.Point(24,26)
-$defaultwindowsupdate.Font       = New-Object System.Drawing.Font('Microsoft Sans Serif',14)
-
 $securitywindowsupdate           = New-Object system.Windows.Forms.Button
 $securitywindowsupdate.text      = "Security Updates Only"
 $securitywindowsupdate.width     = 300
