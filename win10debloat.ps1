@@ -270,12 +270,6 @@ $Label19.height                  = 10
 $Label19.location                = New-Object System.Drawing.Point(63,126)
 $Label19.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
 
-$PictureBox1                     = New-Object system.Windows.Forms.PictureBox
-$PictureBox1.width               = 412
-$PictureBox1.height              = 125
-$PictureBox1.location            = New-Object System.Drawing.Point(247,500)
-$PictureBox1.imageLocation       = "https://podgrajski.si"
-$PictureBox1.SizeMode            = [System.Windows.Forms.PictureBoxSizeMode]::zoom
 $lightmode                       = New-Object system.Windows.Forms.Button
 $lightmode.text                  = "Light Mode"
 $lightmode.width                 = 204
