@@ -224,30 +224,6 @@ $Panel4.height                   = 179
 $Panel4.width                    = 340
 $Panel4.location                 = New-Object System.Drawing.Point(699,55)
 
-$Label17                         = New-Object system.Windows.Forms.Label
-$Label17.text                    = "- Delays Features updates up to 3 years"
-$Label17.AutoSize                = $true
-$Label17.width                   = 25
-$Label17.height                  = 10
-$Label17.location                = New-Object System.Drawing.Point(63,84)
-$Label17.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
-$Label18                         = New-Object system.Windows.Forms.Label
-$Label18.text                    = "- Delays Security updates 4 days"
-$Label18.AutoSize                = $true
-$Label18.width                   = 25
-$Label18.height                  = 10
-$Label18.location                = New-Object System.Drawing.Point(63,105)
-$Label18.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
-$Label19                         = New-Object system.Windows.Forms.Label
-$Label19.text                    = "- Sets Maximum Active Time"
-$Label19.AutoSize                = $true
-$Label19.width                   = 25
-$Label19.height                  = 10
-$Label19.location                = New-Object System.Drawing.Point(63,126)
-$Label19.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
-
 $lightmode                       = New-Object system.Windows.Forms.Button
 $lightmode.text                  = "Light Mode"
 $lightmode.width                 = 204
